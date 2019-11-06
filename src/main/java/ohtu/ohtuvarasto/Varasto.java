@@ -15,6 +15,26 @@ public class Varasto {
             this.tilavuus = 0.0;  // => käyttökelvoton varasto
         }
         saldo = 0;     // oletus: varasto on tyhjä
+
+        int y = 1;
+        int k = 2;
+        int n = 4;
+
+        if (y == 1) {
+            if (k == 2) {
+                if (n == 3) {
+                    int luku = 100;
+                }
+            }
+        }
+
+        for (int i = 0; i < 2; i++){
+            for (int j = 0; j < 3; j++) 
+            {
+                             int luku2 = 200;
+            }
+        }
+
     }
 
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
